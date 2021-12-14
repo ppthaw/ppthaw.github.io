@@ -7,6 +7,7 @@
     <title>Form</title>
 </head>
 <body>
+    <h1>Employee Registration Form</h1>
     <form action="Request.php" method="POST">
         <label for="name">Name</label>
         <input type="text" name="epy_name" id="name" placeholder="Eg.Mg Mg">
@@ -16,6 +17,25 @@
         <br><br>
         <label for="password">Password</label>
         <input type="password" name="epy_password" id="password" required>
+        <br><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="epy_phone" id="phone">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" accept="images/*" name="epy_passport" id="passport">
+        <br><br>
+        <label for="">Gender</label><br>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label> 
+        <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label><br> 
+        <br><br>
+        <label for="">Hobby</label><br>
+        <input type="checkbox" name="travelling" value="travelling" id="travelling"><label for="travelling">Travelling</label>
+        <input type="checkbox" name="moving" value="moving" id="moving"><label for="moving">Moving</label>
+        <input type="checkbox" name="gaming" value="gaming" id="gaming"><label for="gaming">Gaming</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="epy_address" id="address" cols="20" rows="10"></textarea>
         <br><br>
         <button type="submit">Submit</button>
 
