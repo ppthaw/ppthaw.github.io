@@ -35,15 +35,14 @@
             //||
             //!
             
-            if (c >= 50 && java >= 50 && js >= 50){
-                document.write(`<h1>This student is Pass!</h1>`)
-            }if(c >= 81 || java >= 81 || js >= 81){
+            if (c <= 50 || java <= 50 || js <= 50){
+                document.write(`<h1>This student is Fail!</h1>`)
+            }else if(c >= 81 || java >= 81 || js >= 81){
                 document.write(`<h1>This student is Graduated with Honored</h1>`)
             }else{
-                document.write(`<h1>This student is Fail!</h1>`)
-            }  
-            
-             
+                document.write(`<h1>This student is Pass!</h1>`)
+            }    
+        }            
         
     </script>
 </body>
