@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exam Pass</title>
 </head>
 <body>
     <h1>Exam Result</h1>
@@ -35,24 +35,16 @@
             //||
             //!
             
-            if(c > 80 && java > 80 && js > 80){
-                document.write("<h1>This student is Graduated with Honored</h1>")
-            }else if (c >= 50 && java >= 50 && js >= 50){
-                document.write("<h1>This student is Pass!</h1>")
-            }else if(c < 50 || java <50 || js <50){
-                document.write("<h1>This student is Fail!</h1>")
-            }
-            }
+            if (c >= 50 && java >= 50 && js >= 50){
+                document.write(`<h1>This student is Pass!</h1>`)
+            }if(c >= 81 || java >= 81 || js >= 81){
+                document.write(`<h1>This student is Graduated with Honored</h1>`)
+            }else{
+                document.write(`<h1>This student is Fail!</h1>`)
+            }  
             
              
         
-             
-
-
-
-
-
-
     </script>
 </body>
 </html>
