@@ -13,11 +13,11 @@ h2{
 }
 
 /*tag or element selector*/
-div{
+/*div{
     color: green;
     word-spacing: 40px;
     width: 70%;
-}
+}*/
 
 /*attribute selector
     a[target="_blank"]{
@@ -64,4 +64,13 @@ a:active{
 }
 a:visited{
     color: brown;
+}
+
+/* Tatget*/
+div:target{
+    border: 1px solid black;
+}
+
+p:target{
+    border: 1px solid black;
 }
