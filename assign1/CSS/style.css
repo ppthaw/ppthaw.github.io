@@ -1,0 +1,76 @@
+h2{
+    color: green;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* universal selector*/
+*{  /*color: red;*/ /*Text*/
+    /*color:#09c7ed;*/ /*hex*/
+    /*color: rgb(25,0,100);*/
+    line-height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*tag or element selector*/
+/*div{
+    color: green;
+    word-spacing: 40px;
+    width: 70%;
+}*/
+
+/*attribute selector
+    a[target="_blank"]{
+    color: red;
+    text-decoration: none;
+}*/
+
+/*id selector*/
+#idselector{
+    color:blue;
+    text-indent: 50px;
+    word-spacing: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+/*class selector*/
+.classselector{
+    color: green;
+    letter-spacing: 20px;
+    line-height: 30px;
+}
+
+/*descendent selector*/
+.desc a{
+    color: red;
+}
+
+/* Child selector */
+.child > a{
+    color: green;
+}
+
+/*pseudo selector*/
+a:link{
+    color: red;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: yellow;
+    letter-spacing: 40px;
+}
+a:visited{
+    color: brown;
+}
+
+/* Tatget*/
+div:target{
+    border: 1px solid black;
+}
+
+p:target{
+    border: 1px solid black;
+}
