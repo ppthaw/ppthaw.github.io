@@ -1,4 +1,4 @@
-h2{
+/*h2{
     color: green;
     text-transform: uppercase;
     text-align: center;
@@ -73,4 +73,66 @@ div:target{
 
 p:target{
     border: 1px solid black;
+}
+/*border*/
+.borderone{
+    border: 10px dashed #f00;
+}
+.bordertwo{
+    border-bottom: 5px double #0F0;
+}
+.borderstyle{
+    /*border-style: solid dotted double groove;*/
+    /* T / R / B / L */
+    /*border-style: solid dotted double;*/
+    /* T / L&R / B */
+    /*border-style: double dashed;*/
+    /* T&B / L&R */
+    border-style: double;
+    /* TRBL */
+}
+.borderwidth{
+    border-width: 5px 10px;
+    border-style: solid;
+}
+/*Margin*/
+.margin{
+    border: 1px solid red;
+    margin: 40px;
+}
+.marginmix{
+    border: 1px solid black;
+    margin-left: 60px;
+}
+/*Padding*/
+.padding{
+    /*padding: 40px;*/
+    /*padding-left: 50px;*/
+    /*padding-top: 60px;*/
+    padding: 50px 0px 0px 60px;
+    border: 1px solid red;   
+}
+/*Layout*/
+.inline{
+    border: 1px solid red;
+    width: 400px;
+    display: inline-block;
+}
+.block{
+    border: 1px solid green;
+    width: 400px;
+    height: 80px;
+    display: inline-block;
+}
+/*Float*/
+div.float_left img{
+    width: 20%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+div.float_right img{
+    width: 30%;
+    float: right;
 }
