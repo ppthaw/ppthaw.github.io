@@ -7,10 +7,10 @@
 *{  /*color: red;*/ /*Text*/
     /*color:#09c7ed;*/ /*hex*/
     /*color: rgb(25,0,100);*/
-    line-height: 60px;
+    /*line-height: 60px;
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 /*tag or element selector*/
 /*div{
@@ -26,7 +26,7 @@
 }*/
 
 /*id selector*/
-#idselector{
+/*#idselector{
     color:blue;
     text-indent: 50px;
     word-spacing: 30px;
@@ -34,25 +34,25 @@
     text-transform: uppercase;
 }
 
-/*class selector*/
+/*class selector
 .classselector{
     color: green;
     letter-spacing: 20px;
     line-height: 30px;
-}
+}*/
 
 /*descendent selector*/
-.desc a{
+/*.desc a{
     color: red;
-}
+}*/
 
-/* Child selector */
+/* Child selector 
 .child > a{
     color: green;
-}
+}*/
 
 /*pseudo selector*/
-a:link{
+/*a:link{
     color: red;
 }
 a:hover{
@@ -67,14 +67,14 @@ a:visited{
 }
 
 /* Tatget*/
-div:target{
+/*div:target{
     border: 1px solid black;
 }
 
 p:target{
     border: 1px solid black;
 }
-/*border*/
+/*border
 .borderone{
     border: 10px dashed #f00;
 }
@@ -88,14 +88,14 @@ p:target{
     /* T / L&R / B */
     /*border-style: double dashed;*/
     /* T&B / L&R */
-    border-style: double;
+    /*border-style: double;
     /* TRBL */
 }
-.borderwidth{
+/*.borderwidth{
     border-width: 5px 10px;
     border-style: solid;
 }
-/*Margin*/
+/*Margin
 .margin{
     border: 1px solid red;
     margin: 40px;
@@ -105,14 +105,14 @@ p:target{
     margin-left: 60px;
 }
 /*Padding*/
-.padding{
+/*.padding{
     /*padding: 40px;*/
     /*padding-left: 50px;*/
     /*padding-top: 60px;*/
-    padding: 50px 0px 0px 60px;
+    /*padding: 50px 0px 0px 60px;
     border: 1px solid red;   
 }
-/*Layout*/
+/*Layout
 .inline{
     border: 1px solid red;
     width: 400px;
@@ -124,7 +124,7 @@ p:target{
     height: 80px;
     display: inline-block;
 }
-/*Float*/
+/*Float
 div.float_left img{
     width: 20%;
     float: left;
@@ -135,4 +135,74 @@ div.float_left img{
 div.float_right img{
     width: 30%;
     float: right;
+}
+/*grid*/
+div.gridone div,div.gridtwo div,div.gridthree div,div.gridfour div,div.gridfive div,div.gridsix div{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+div.gridone,div.gridtwo,div.gridthree,div.gridfour,div.gridfive,div.gridsix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+div.gridtwo{
+    grid-column-gap: 40px;
+}
+div.gridthree{
+    grid-row-gap: 40px;
+}
+div.gridfour{
+    grid-gap: 40px;
+}
+.gridaddcolumn{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.gridaddrow{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+/* position */
+.relativeparent{
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+}
+.relative{
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+    left: 190px;
+}
+.absoluteparent{
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+}
+.absolute{
+    border: 1px solid yellow;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    left: 1000px;
+}
+/* fonts */
+.online{
+    font-family: 'Dancing Script', cursive;
+}
+@font-face{
+    src:url(GreatVibes-Regular.ttf);
+    font-family: G;
+}
+.offline{
+    font-family: G;
 }
