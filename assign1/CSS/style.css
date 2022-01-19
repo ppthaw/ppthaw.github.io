@@ -4,10 +4,12 @@
     text-align: center;
 }
 /* universal selector*/
-*{  /*color: red;*/ /*Text*/
+/**{  /*color: red;*/ /*Text*/
     /*color:#09c7ed;*/ /*hex*/
     /*color: rgb(25,0,100);*/
+
     /*line-height: 60px;
+    line-height: 40px;
     margin: 0px;
     padding: 0px;
 }*/
@@ -17,7 +19,7 @@
     color: green;
     word-spacing: 40px;
     width: 70%;
-}*/
+}
 
 /*attribute selector
     a[target="_blank"]{
