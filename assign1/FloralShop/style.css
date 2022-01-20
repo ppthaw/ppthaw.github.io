@@ -12,34 +12,34 @@
     margin-left: 70px;
     margin-top: 20px;
 }
-.shopname{
+.brand_name{
     margin-top: -60px;
     margin-left: 120px;
     font-family: L;
     font-size: 20px;   
 }
-.nav_type{
+.nav_brand{
     display: inline-block;
 }
-.nav_bar ul{
+.navbar ul{
     float: right;
 }
-.nav_bar ul li{
+.navbar ul li{
     display: inline-block;
     margin-right: 50px;
     margin-top: 45px;
 }
-.nav_bar ul li a{
+.navbar ul li a{
     font-weight: bold;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
 }
-.nav_bar{
+.navbar{
     height: 100px;
     /*background-color: green;*/
 }
-.nav_bar ul li a:hover{
+.navbar ul li a:hover{
     color: #2173a1;
     letter-spacing: 4px;
     transition-duration: 0.5s;
