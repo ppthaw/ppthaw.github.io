@@ -2,43 +2,44 @@
     margin: 0px;
     padding: 0px;
 }
-@font-face{
-    src:url(../Lobster-Regular.ttf);
+@font-face {
     font-family: L;
+    src: url(Lobster-Regular.ttf);
 }
 .logo{
     width: 100px;
-    height: 70px;
-    margin-left: 40px;
-    margin-top: 10px;
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
-.brand_name{
-    margin-left: 90px;
-    margin-top: -55px;
-    font-size: 20px;
+.shopname{
+    margin-top: -60px;
+    margin-left: 120px;
     font-family: L;
+    font-size: 20px;   
 }
-.nav_brand{
+.nav_type{
     display: inline-block;
 }
-nav.navbar ul{
+.nav_bar ul{
     float: right;
 }
-.navbar ul li{
+.nav_bar ul li{
     display: inline-block;
-    margin-right: 40px;
-    margin-top: 30px;
+    margin-right: 50px;
+    margin-top: 45px;
 }
-.navbar ul li a{
-    text-decoration: none;
+.nav_bar ul li a{
+    font-weight: bold;
     color: black;
     text-transform: uppercase;
-    font-weight: bold;
+    text-decoration: none;
 }
-.navbar{
-    height: 90px;
+.nav_bar{
+    height: 100px;
+    /*background-color: green;*/
 }
-.navbar ul li a:hover{
+.nav_bar ul li a:hover{
     color: #2173a1;
     letter-spacing: 4px;
     transition-duration: 0.5s;
@@ -60,7 +61,7 @@ nav.navbar ul{
 .shop{
     background-color: white;
     border: 1px solid #2173a1;
-    color: #2173a1;
+    color:#2173a1;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
