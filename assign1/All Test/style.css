@@ -1,34 +1,37 @@
-/*div.float_left img{
-    width: 40%;
-    float: left;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-.clear{
-    clear: both;
+@font-face {
+    font-family: L;
+    src: url(Lobster-Regular.ttf);
 }
-div.float_right img{
-    width: 20%;
+.logo{
+    width: 100px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.shopname{
+    margin-left: 70px;
+    margin-top: -50px; 
+    font-size: 20px;
+    font-family: L;
+}
+.nav_type{
+    display: inline-block;
+}
+nav.bar ul{
     float: right;
-}*/
-
-/*.borderone{
-    border: 5px dashed green;
 }
-.bordertwo{
-    border-top: 10px solid #f00;
+.bar ul li{
+    display: inline-block;   
+    margin-right: 50px;
+    margin-top: 40px;    
 }
-.borderstyle{
-    /*border-style: solid dotted double groove;*/
-    /*border-style: double solid groove;*/
-    /*border-style: dashed groove;*/
-    /*border-style: double;
-}
-/*.borderwidth{
-    border-width: 3px 10px;
-    border-style: dashed;
-}*/
-/* .margin{ 
-    margin: 40px;
-}*/
-.padding{
-    padding: 60px;
+.bar ul li a{
+    text-decoration: none;
+    /*color: black;*/
+    font-weight: bold;
+    text-transform: uppercase;
 }

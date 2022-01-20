@@ -139,7 +139,7 @@ div.float_right img{
     float: right;
 }
 /*grid*/
-div.gridone div,div.gridtwo div,div.gridthree div,div.gridfour div,div.gridfive div,div.gridsix div{
+/*div.gridone div,div.gridtwo div,div.gridthree div,div.gridfour div,div.gridfive div,div.gridsix div{
     text-align: center;
     color: white;
     padding: 20px;
@@ -166,7 +166,7 @@ div.gridfour{
     grid-row-end: 3;
 }
 /* position */
-.relativeparent{
+/*.relativeparent{
     border: 1px solid black;
     width: 1000px;
     height: 600px;
@@ -198,7 +198,7 @@ div.gridfour{
     left: 1000px;
 }
 /* fonts */
-.online{
+/*.online{
     font-family: 'Dancing Script', cursive;
 }
 @font-face{
@@ -207,4 +207,4 @@ div.gridfour{
 }
 .offline{
     font-family: G;
-}
+}*/
