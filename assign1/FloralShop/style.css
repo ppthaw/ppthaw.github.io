@@ -83,14 +83,14 @@
     display: grid;
     grid-template-columns: auto auto auto auto ;
     margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     text-align: center;
-    grid-gap: 50px;
+    grid-gap: 65px;
 }
 .product_img{
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
 }
 .red{
     color: red;
