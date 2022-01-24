@@ -70,3 +70,28 @@
     color: white;
     background-color: #2173a1;
 }
+.header{
+    text-align: center;
+    margin-top: 40px;
+}
+.divided{
+    width: 100px;
+    margin: auto;
+    border: 1px solid #2173a1;
+}
+.product{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 10px;
+    text-align: center;
+    grid-gap: 50px;
+}
+.product_img{
+    border-radius: 5px;
+    width: 80%;
+}
+.red{
+    color: red;
+}
