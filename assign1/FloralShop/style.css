@@ -91,7 +91,42 @@
 .product_img{
     border-radius: 5px;
     width: 100%;
+    box-shadow: 0 10px 20px rgb(0,0,0,.15);
 }
 .red{
     color: red;
+}
+.about{
+    background-image: url(images/9.jpg);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.about div{
+    padding: 50px;
+}
+.divid{
+    width: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.package{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.pag{
+    width: 500px;
+    margin-left: 70px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.T{
+    padding-left: 650px;
+    margin-top: -500px;    
+}
+.P{
+    text-transform: uppercase;
 }
