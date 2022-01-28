@@ -166,3 +166,20 @@
     display: inline-block;
     margin: 20px 10px 0px;
 }
+/* about */
+.aboutus{
+    background-color: #f4e5f7;
+    height: 500px;
+}
+.AU{
+    margin-left: 900px;
+    padding-top: 150px;
+}
+.AU:hover{
+    color: black;
+    letter-spacing: 4px;
+    transition-duration: 0.5s;
+}
+.abouttext{
+    margin-left: 120px;
+}
