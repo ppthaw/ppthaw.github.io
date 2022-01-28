@@ -166,14 +166,14 @@
     display: inline-block;
     margin: 20px 10px 0px;
 }
-/* about */
+/* aboutus */
 .aboutus{
-    background-color: #f4e5f7;
-    height: 500px;
+    height: 350px;
+    background-color: #b28ff7
 }
 .AU{
-    margin-left: 900px;
-    padding-top: 150px;
+    margin-left: 220px;
+    padding-top: 50px;
 }
 .AU:hover{
     color: black;
@@ -181,5 +181,49 @@
     transition-duration: 0.5s;
 }
 .abouttext{
-    margin-left: 120px;
+    margin-top: 50px;
+    margin-left: 380px;
+    float: left;
 }
+.S{
+    float: right;
+    padding-right: 150px;
+    font-family: L;
+    font-weight: unset;
+}
+.know{
+    height: 1600px;
+}
+.about_img1{
+    float: left;
+    max-width:35%;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+.quote_1{
+    position: relative;
+    padding-top: 250px;
+    left: 50px;
+    width: 100%;
+}
+.about_img2{
+    width: 450px;
+    height: 450px;
+    float: right;
+    padding-top: 350px;
+    margin-right: 100px ;    
+}
+.about_img3{
+    width: 450px;
+    height: 400px;
+    padding-top: 400px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.about_img4{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-right: 150px ; 
+}
+
