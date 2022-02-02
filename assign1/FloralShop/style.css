@@ -271,4 +271,27 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
 }
-
+/* contactus */
+.CP{
+    height: 1000px;
+}
+.contact_img1{
+    float: left;
+    max-width: 300%;
+    margin: auto 32px auto;
+}
+.contactus{
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 550px;
+    letter-spacing: 2px;
+    color: #99f0f1;
+}
+.contacttext{
+    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 400px;
+    color: #99f0f1;
+}
