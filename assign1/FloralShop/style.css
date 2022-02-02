@@ -233,8 +233,12 @@
 }
 /* shop */
 .SP{
+<<<<<<< HEAD
     height: 2500px;
     background-color: rgb(252, 242, 230);
+=======
+    height: 2000px;
+>>>>>>> 008812c86fced3d67f8c3817f5d4b87e60996655
 }
 .shop_img1{
     width: 430px;  
@@ -275,6 +279,7 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
 }
+<<<<<<< HEAD
 /* contactus */
 
 .CT{
@@ -287,4 +292,147 @@
     margin-top: 50px;
 }
 
+=======
+.shop_text3{
+    text-align: center;
+    margin-top: 160px;
+    padding: 40px 40px;
+}
+.shop_textbar{
+    height: 100px;
+    background-color: #f88222;
+}
+.shop_text4{
+    text-align: center;
+    padding-top: 25px;
+}
+.SI_1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    grid-gap: 30px;
+}
+.shop_img3{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
+}
+>>>>>>> 008812c86fced3d67f8c3817f5d4b87e60996655
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contactus */
+.CP{
+    height: 700px;
+}
+.contact_img1{
+    float: left;
+    max-width: 300%;
+    margin: auto 32px auto;
+}
+.contactus{
+    position: absolute;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 550px;
+    letter-spacing: 2px;
+    color: #99f0f1;
+}
+.contacttext{
+    position: absolute;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 400px;
+    color: #99f0f1;
+}
+.address{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 100px;
+}
+.address h3{
+    margin-left: 60px;
+    margin-top: -45px;
+}
+.address p{
+    margin-left: 60px;
+    margin-top: -18px;
+}
+.phone{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 100px;
+}
+.phone h3{
+    margin-left: 60px;
+    margin-top: -45px;
+}
+.phone p{
+    margin-left: 60px;
+    margin-top: -18px;
+}
+.email{
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 100px;
+}
+.email h3{
+    margin-left: 60px;
+    margin-top: -45px;
+}
+.email p{
+    margin-left: 60px;
+    margin-top: -18px;
+}
+.white-box{
+    position: absolute;
+    background-color: white;
+    width: 380px;
+    height: 380px;
+    margin-top: 280px;
+    margin-left: 800px;
+}
+.wb h2{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 830px;    
+}
+.form_text{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 830px;  
+    line-height: 23px;  
+}
+.send{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.send:hover{
+    background-color: #99f0f1;
+}
