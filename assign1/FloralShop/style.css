@@ -232,14 +232,6 @@
     margin-top: 50px;
 }
 /* shop */
-.SP{
-<<<<<<< HEAD
-    height: 2500px;
-    background-color: rgb(252, 242, 230);
-=======
-    height: 2000px;
->>>>>>> 008812c86fced3d67f8c3817f5d4b87e60996655
-}
 .shop_img1{
     width: 430px;  
     height: 500px;
@@ -279,20 +271,6 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
 }
-<<<<<<< HEAD
-/* contactus */
-
-.CT{
-    height: 1000px;
-    background-image: url(images/test-22.jpg);
-    max-width: 200%;
-    color: white;
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: 50px;
-}
-
-=======
 .shop_text3{
     text-align: center;
     margin-top: 160px;
@@ -319,33 +297,6 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
 }
->>>>>>> 008812c86fced3d67f8c3817f5d4b87e60996655
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* contactus */
 .CP{
     height: 700px;
