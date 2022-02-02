@@ -232,6 +232,9 @@
     margin-top: 50px;
 }
 /* shop */
+.SP{
+    height: 2000px;
+}
 .shop_img1{
     width: 430px;  
     height: 500px;
@@ -271,6 +274,58 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
 }
+.shop_text3{
+    text-align: center;
+    margin-top: 160px;
+    padding: 40px 40px;
+}
+.shop_textbar{
+    height: 100px;
+    background-color: #f88222;
+}
+.shop_text4{
+    text-align: center;
+    padding-top: 25px;
+}
+.SI_1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    grid-gap: 30px;
+}
+.shop_img3{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* contactus */
 .CP{
     height: 700px;
