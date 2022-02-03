@@ -42,7 +42,7 @@
 .navbar ul li a:hover{
     color: #2173a1;
     letter-spacing: 4px;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 }
 .img{
     width: 100%;
@@ -176,9 +176,9 @@
     padding-top: 80px;
 }
 .AU:hover{
-    color: black;
+    color: #2173a1;
     letter-spacing: 4px;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
 }
 .abouttext{
     margin-top: 30px;
@@ -239,7 +239,7 @@
     margin-left: 50px;
     margin-top: 50px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
+    box-shadow: 0 10px 50px rgba(153, 12, 241, 0.15);
 }
 .shop_text1{
     text-align: center;
@@ -248,54 +248,145 @@
     letter-spacing: 10px;
     position: absolute;
     margin-left: 150px;
-    margin-top: 510px;
+    margin-top: 505px;
 }
 .shop_text2{
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: 100px;
     text-align: center;
     font-family: L;
-    color: blueviolet;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 .SI{  
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 5px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .shop_img2{
     width: 230px;
     height: 230px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
+    box-shadow: 0 10px 50px rgba(153, 12, 241, 0.15);
 }
-.shop_text3{
-    text-align: center;
-    margin-top: 160px;
-    padding: 40px 40px;
+.shop_img2:hover{
+    box-shadow: 5px 5px 5px #bca2e0;
+    margin-top: -10px;
+    transition-duration: 0.4s;
+}
+.price_1{
+    font-size: 15px;
+    font-family: L;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
 }
 .shop_textbar{
     height: 100px;
     background-color: #f88222;
+    margin-top: 100px;
+}
+.shop_textbar a{
+    display: inline-block;
+    text-decoration: unset;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 180px;
+    color: black;  
+}
+.shop_textbar a:hover{
+    color: #2173a1;
+    letter-spacing: 4px;
+    transition-duration: 0.4s;
+}
+.theme{
+    width: 100%;
 }
 .shop_text4{
     text-align: center;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 .SI_1{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-left: 50px;
     margin-top: 50px;
-    grid-gap: 30px;
+    grid-gap: 20px;
+    text-align: center;
 }
 .shop_img3{
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(153, 12, 241, 0.15);
+    box-shadow: 0 10px 50px rgba(153, 12, 241, 0.15);
+}
+.shop_img3:hover{
+    box-shadow: 5px 5px 5px #bca2e0;
+    margin-top: -10px;
+    transition-duration: 0.4s;
+}
+.shop_text5{
+    text-align: center;
+}
+.SI_2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    grid-gap: 20px;
+    text-align: center;
+}
+.shop_img4{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgba(153, 12, 241, 0.15);
+}
+.shop_img4:hover{
+    box-shadow: 5px 5px 5px #bca2e0;
+    margin-top: -10px;
+    transition-duration: 0.4s;
+}
+.shop_text6{
+    text-align: center;
+}
+.SI_3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    grid-gap: 20px;
+    text-align: center;
+}
+.shop_img5{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgba(153, 12, 241, 0.15);
+}
+.shop_img5:hover{
+    box-shadow: 5px 5px 5px #bca2e0;
+    margin-top: -10px;
+    transition-duration: 0.4s;
+}
+.shop_text7{
+    text-align: center;
+}
+.SI_4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    grid-gap: 20px;
+    text-align: center;
+}
+.shop_img6{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 10px 50px rgba(153, 12, 241, 0.15);
+}
+.shop_img6:hover{
+    box-shadow: 5px 5px 5px #bca2e0;
+    margin-top: -10px;
+    transition-duration: 0.4s;
 }
 /* contactus */
 .CP{
@@ -303,16 +394,18 @@
 }
 .contact_img1{
     float: left;
-    max-width: 300%;
-    margin: auto 32px auto;
+    width: 100%;
 }
 .contactus{
     position: absolute;
     text-align: center;
     margin-top: 80px;
     margin-left: 550px;
-    letter-spacing: 2px;
     color: #99f0f1;
+}
+.contactus:hover{
+    letter-spacing: 4px;
+    transition-duration: 0.4s;
 }
 .contacttext{
     position: absolute;
