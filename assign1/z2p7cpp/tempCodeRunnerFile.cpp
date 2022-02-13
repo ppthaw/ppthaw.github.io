@@ -1,0 +1,1 @@
+  cout<< mySeconds << " Seconds = " << hours << "Hours :" << minutes << "Minutes :" << seconds << "Seconds " << endl;
