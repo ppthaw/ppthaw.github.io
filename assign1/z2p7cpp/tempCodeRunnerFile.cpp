@@ -1,1 +1,1 @@
-  cout<< mySeconds << " Seconds = " << hours << "Hours :" << minutes << "Minutes :" << seconds << "Seconds " << endl;
+cout<< "Years : "<<years<<"\nMonths : "<<months<<"\nDays : "<<days ;
