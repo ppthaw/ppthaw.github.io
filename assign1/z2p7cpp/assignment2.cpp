@@ -9,6 +9,6 @@ int main() {
     proPrice = proPrice ;
     disValue = (proPrice * 10) / 100 ;
     adisPrice = proPrice - disValue ;
-    cout<< "Product Price : "<<proPrice<<"\nDiscount Value : "<<disValue<<"\nAfter Discount Price : "<<adisPrice ;
+    cout<<"After Discount Price : "<<adisPrice ;
     return 0;
 }
