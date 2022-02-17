@@ -8,6 +8,7 @@ int main() {
     cin>>rate ;
     cout<<"Enter Number Of Month :" ;	
     cin>>month ;
+    
     monthlyInterest = loan * rate * 0.01 ;
     interest = monthlyInterest * month ;
     cout<< "Monthly Interest :"<<monthlyInterest<<endl;
