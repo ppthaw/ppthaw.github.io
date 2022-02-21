@@ -6,7 +6,7 @@ int main(){
         cout<< " Enter any number : " ;
         cin>> num ;  
         if( num==0 ) zero++ ;
-        if( num<0 ) neg++ ;-69
+        if( num<0 ) neg++ ;
         if( num>0 ) post++ ;
         count++;
     }
