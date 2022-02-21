@@ -1,1 +1,1 @@
-cout<< "Years : "<<years<<"\nMonths : "<<months<<"\nDays : "<<days ;
+ i++;
