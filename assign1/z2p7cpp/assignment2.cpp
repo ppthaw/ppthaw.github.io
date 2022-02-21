@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std ;
 int main() {
-    float proPrice,disValue,adisPrice ;
+    float proPrice,disValue,disPrice,adisPrice ;
     cout<<"Enter Product Price : " ;
     cin>>proPrice ;
     cout<<"Enter Discount Value :" ;	
     cin>>disValue ;
-    proPrice = proPrice ;
-    disValue = (proPrice * 10) / 100 ;
-    adisPrice = proPrice - disValue ;
+    
+    disPrice = proPrice * disValue * 0.01 ;
+    adisPrice = proPrice - disPrice ;
     cout<<"After Discount Price : "<<adisPrice ;
     return 0;
 }
