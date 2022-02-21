@@ -35,7 +35,7 @@ int main() {
     
     if( programming>=50 && english>=50 && math>=50 ){
         cout<< " Passed! " <<endl ;
-    }else{
+    }else if( programming<50 || english<50 || math<50 ){
         cout<< " Failed! " <<endl ;
     }if( programming>=80 && programming>=50 ){
         cout<< " Distinction Subject - Programming " <<endl ;
