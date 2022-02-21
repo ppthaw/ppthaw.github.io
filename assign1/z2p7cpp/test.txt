@@ -1,0 +1,12 @@
+student1=[50,50,50]; => total => avg => pass or fail => distinction
+student2=[50,50,50];
+student3=[50,50,50];
+student4=[50,50,50];
+student5=[50,50,50];
+student6=[50,50,50];
+student7=[50,50,50];
+student8=[50,50,50];
+student9=[50,50,50];
+student10=[50,50,50];
+
+student_mark[count][7]={id,programming,english,maths,total,avg,result}
