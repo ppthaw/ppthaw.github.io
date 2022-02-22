@@ -25,14 +25,27 @@ int main() {
         int programming=student_mark[i][1];
         int english=student_mark[i][2];
         int maths=student_mark[i][3];
-
-
+        int total=programming+english+maths ;
+        float averge=total*1.0/3 ;
+        int result=(programming>=50 && english>=50 && maths>=50) ;
+        student_mark[i][4]=total ;
+        student_mark[i][5]=averge ;
+        student_mark[i][6]=result ;
     }
     // Output student marks :
     cout<< "\nStudent Marks information for :"<< count << "Students" << endl;
     cout<<"\nID\tPro\tEng\tMaths\tTotal\tAvg\tresult"<<endl;
     for(int i=0;i<count;i++){
         for(int j=0;j<7;j++){
+            if(j==6){
+                if(student_mark[i][j]==1){
+                    cout<<"Pass\t";
+                }else{
+                    cout<<"Fail\t";
+                }
+            }else{
+                cout<<student_mark[i][j]<<"\t";
+            }
             cout<<student_mark[i][j]<<"\t";
         }
     }
