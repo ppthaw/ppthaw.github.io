@@ -7,14 +7,15 @@ int main() {
     cin>>start;
     cout<< "Enter End Number :";
     cin>>end;
+   
     while(start<=end){
-        sum +=start;
-        count++;
         start++;
+        count++;
+        sum +=start; 
     }
     average=(float)sum/count;
-    cout<< "Sum of" << start << " to "<< end << "is :" << sum << endl;
-    cout<< "Total Number Count :" << count << endl;
-    cout<< "Average :" << average << endl;
+    cout<< " Sum of " << start << " to "<< end << " is : " << sum << endl;
+    cout<< " Total Number Count : " << count << endl;
+    cout<< " Average : " << average << endl;
     return 0;
 }
