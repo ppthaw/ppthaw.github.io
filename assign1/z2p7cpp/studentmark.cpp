@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std ;
-int main() {
+int main(){
     int count ;
     cout<< " Enter number of students : " ;
     cin>>count;
@@ -19,6 +19,7 @@ int main() {
             }else{
                 cout<<" Enter Maths Mark : " ;
                 cin>>student_mark[i][j];
+            }    
         }
     }
     for(int i=0;i<count;i++){
@@ -33,8 +34,8 @@ int main() {
         student_mark[i][6]=result ;
     }
     // Output student marks :
-    cout<< "\nStudent Marks information for :"<< count << "Students" << endl;
-    cout<<"\nID\tPro\tEng\tMaths\tTotal\tAvg\tresult"<<endl;
+    cout<< "\nStudent Marks information for :"<< count << "Students" << endl ;
+    cout<<"\nID\tPro\tEng\tMaths\tTotal\tAvg\tresult"<< endl;
     for(int i=0;i<count;i++){
         for(int j=0;j<7;j++){
             if(j==6){
@@ -42,14 +43,13 @@ int main() {
                     cout<<"Pass\t";
                 }else{
                     cout<<"Fail\t";
-                }
+                }    
             }else{
                 cout<<student_mark[i][j]<<"\t";
             }
-            cout<<student_mark[i][j]<<"\t";
-        }
-    }
-    cout<<endl;
-    }
-    return 0;
+        }   
+                cout<<endl;
+    }   
+            return 0;
+    
 }

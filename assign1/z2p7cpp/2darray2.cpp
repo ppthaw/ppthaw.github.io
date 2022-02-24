@@ -39,7 +39,7 @@ int main() {
     // calculate max value in 2D array
     int max_num=number[0][0]; // variable for max number assigned with first element
     for(int i=0;i<row;i++){
-            int max_num_in_row=number[i][0];
+            int max_num_in_row=number[i][0]; // number[0][0] number[1][0]
         for(int j=0;j<col;j++){
             if(max_num<number[i][j]){
                 max_num=number[i][j];
