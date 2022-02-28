@@ -21,13 +21,13 @@ int main() {
                 cin>>student_mark[i][j];
         }
     }
-    for(int i=0;i<count;i++){
+    /*for(int i=0;i<count;i++){
         int programming=student_mark[i][1];
         int english=student_mark[i][2];
         int maths=student_mark[i][3];
 
 
-    }
+    }*/
     // Output student marks :
     cout<< "\nStudent Marks information for :"<< count << "Students" << endl;
     cout<<"\nID\tPro\tEng\tMaths\tTotal\tAvg\tresult"<<endl;
