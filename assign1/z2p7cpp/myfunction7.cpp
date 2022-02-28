@@ -11,7 +11,6 @@ void showBrands(){
         cout<<brands[i]<<endl ;
     }
 }
-
 int main(){
     addBrand("iPhone") ;
     addBrand("Samsung") ; 

@@ -10,7 +10,7 @@ int main() {
     int var3= *ptr1 + 3;
     *ptr1=15;
 
-    cout<< " Value of var3 is : " << var1 << endl;
+    cout<< " Value of var3 is : " << var3 << endl;
     
     cout<< " Address of var1 : " << ptr1 << endl;
     cout<< " Value of var1 : " << *ptr1 << endl;
