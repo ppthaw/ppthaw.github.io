@@ -10,3 +10,18 @@ student9=[50,50,50];
 student10=[50,50,50];
 
 student_mark[count][7]={id,programming,english,maths,total,avg,result}
+
+
+weather information:
+month rain wind temp
+1       50  120 35
+2       40  110 34
+3       60  125 56
+4       45  34  67
+total(5)   210 450 140
+Avg(6)    45  89  56
+
+Number of Month : 4
+weather_info[count][j]=total
+weather_info[count+1][j]=average
+Enter Information for month ID :

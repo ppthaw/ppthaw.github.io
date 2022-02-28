@@ -16,7 +16,7 @@ int main() {
     cout<<num[0][2]<<"\n";
     cout<<num[1][0]<<"\t";
     cout<<num[1][1]<<"\t";
-    cout<<num[1][2]<<"\t";
+    cout<<num[1][2]<<"\n";
     
     return 0;
 }
