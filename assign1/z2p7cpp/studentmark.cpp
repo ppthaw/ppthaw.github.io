@@ -22,10 +22,15 @@ int main(){
             }    
         }
     }
-    for(int i=0;i<count;i++){
+    /*for(int i=0;i<count;i++){
         int programming=student_mark[i][1];
         int english=student_mark[i][2];
         int maths=student_mark[i][3];
+<<<<<<< HEAD
+
+
+    }*/
+=======
         int total=programming+english+maths ;
         float averge=total*1.0/3 ;
         int result=(programming>=50 && english>=50 && maths>=50) ;
@@ -33,6 +38,7 @@ int main(){
         student_mark[i][5]=averge ;
         student_mark[i][6]=result ;
     }
+>>>>>>> c8d27b9367741f916a58631d9f7dad740ea4b126
     // Output student marks :
     cout<< "\nStudent Marks information for :"<< count << "Students" << endl ;
     cout<<"\nID\tPro\tEng\tMaths\tTotal\tAvg\tresult"<< endl;
