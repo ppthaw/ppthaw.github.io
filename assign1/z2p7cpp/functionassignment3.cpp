@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std ;
 string itemList[5][3] ;
-int count ; 
+int count ;
 string barcode ;
 void initializeData(){      
     cout<< " Enter number of Items : " ;
     cin>>count;
     for(int i=0;i<count;i++){
-        cout<<"Enter information for Items : "<< i+1 << endl;
+        cout<<"Enter information for Items : "<< i+1 << endl ;
         for(int j=0;j<3;j++){
             if(j==0){
                 cout<<" Enter Barcode : " ;
@@ -17,7 +17,7 @@ void initializeData(){
                 cin>>itemList[i][j] ;
             }else{
                 cout<<" Enter Price : " ;
-                cin>>itemList[i][j];
+                cin>>itemList[i][j] ;
             }
         }   
     }
@@ -27,29 +27,26 @@ void displayitemData(){
     cout<< " \nBarcode\tName\tPrice " << endl ;
     for(int i=0;i<count;i++){
         for(int j=0;j<3;j++){
-            cout<< itemList[i][j]<<"\t";
+            cout<< itemList[i][j]<<"\t" ;
         }
-            cout<<endl;
+            cout<<endl ;
     }               
-}   
+}  
 void searchitembyCode(string barcode){        
-        for(int i=1;i<6;i++){
+        for(int i=0;i<count;i++){
             for(int j=0;j<3;j++){
-                if(itemList[i+1][j] == barcode){
-                cout<< " string barcode " << "\t" ; 
-            }else{
-                cout<< " Don't Match a Barcode ! " ; 
-            }              
-        } 
-             cout << endl ;                      
+                if(itemList[i+1][j] == "101"){
+                cout<< " itemList[i+1][j]\titemList[i+1][j+1]\titemList[i+1][j+2] " << endl ;
+            }             
+        }         
     }
-               
-}
+            cout << endl ;
+}               
 int main(){
     initializeData() ;
     displayitemData() ;
     cout<< " Take One arg for barcode : " ;
-    cin>>barcode ;  
+    cin>>barcode ; 
     searchitembyCode(barcode) ;
 }   
 
