@@ -2,7 +2,7 @@
 using namespace std ;
 string itemList[5][3] ;
 int count ; 
-string barcode ;
+
 void initializeData(){      
     cout<< " Enter number of Items : " ;
     cin>>count;
@@ -31,26 +31,28 @@ void displayitemData(){
         }
             cout<<endl;
     }               
-}   
-void searchitembyCode(string barcode){        
-        for(int i=1;i<6;i++){
-            for(int j=0;j<3;j++){
-                if(itemList[i+1][j] == barcode){
-                cout<< " string barcode " << "\t" ; 
-            }else{
-                cout<< " Don't Match a Barcode ! " ; 
-            }              
-        } 
-             cout << endl ;                      
+}  
+void searchitembyCode(){ 
+string barcode ; 
+cout<< " Enter Barcode which you want to find : " ;
+cin>>barcode ;        
+        if(barcode == itemList[0][0]){
+        cout<< " Barcode : " << itemList[0][0] << " \tItemName : " << itemList[0][1] << " \tPrice : " << itemList[0][2] << endl ;
+    }if(barcode == itemList[1][0]){
+        cout<< " Barcode : " << itemList[1][0] << " \tItemName : " << itemList[1][1] << " \tPrice : " << itemList[1][2] << endl ;
+    }if(barcode == itemList[2][0]){
+        cout<< " Barcode : " << itemList[2][0] << " \tItemName : " << itemList[2][1] << " \tPrice : " << itemList[2][2] << endl ;
+    }if(barcode == itemList[3][0]){
+        cout<< " Barcode : " << itemList[3][0] << " \tItemName : " << itemList[3][1] << " \tPrice : " << itemList[3][2] << endl ;
+    }if(barcode == itemList[4][0]){
+        cout<< " Barcode : " << itemList[4][0] << " \tItemName : " << itemList[4][1] << " \tPrice : " << itemList[4][2] << endl ;
     }
-               
+        cout<< endl ;
 }
 int main(){
     initializeData() ;
-    displayitemData() ;
-    cout<< " Take One arg for barcode : " ;
-    cin>>barcode ;  
-    searchitembyCode(barcode) ;
+    displayitemData() ;     
+    searchitembyCode() ;
 }   
 
  
