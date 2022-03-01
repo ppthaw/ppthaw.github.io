@@ -1,48 +1,30 @@
 #include <iostream>
-using namespace std ;
+using namespace std;
 class Account
 {
+private:
+    string accHolder ;
+    string accNumber ;
+    int balance ;
 public:
-    string accountHolder ;
-    string accountNumber ;
-    int accountBalance ;
-    void createAccount(string accHolder,string accNumber){
-    this->accountHolder = accountHolder ;
-    this->accountNumber = accountNumber ;
-        accountBalance = 1000 ;
+    Account(){
+        this->accHolder="Unknown" ;
+        this->accNumber="Unknown" ;
+        this->balance=0 ;
     }
-    void deposit(int depositAmount){
-        accountBalance = accountBalance + depositAmount ;
-}
-    bool withdraw(int withdrawAmount){
-        if(withdrawAmount > accountBalance){
-        return false ;
-    }else{
-        accountBalance = accountBalance - withdrawAmount ;
-        return true ;
+    Account(string accHolder,string accNumber,int amount){
+        this->accHolder=accHolder ;
+        this->accNumber=accNumber ;
+        this->balance=amount ;
     }
-}
     void showData(){
-    cout<< "\n______Current Info______" << endl ;
-    cout<< "\nAccount Holder Name : " << accountHolder << endl ;
-    cout<< "\nAccount Number : " << accountNumber << endl ;
-    cout<< "\nAccount Balance : " << accountBalance << endl ;
-
+        cout<< accHolder << "\t" << accNumber << "\t" << balance << endl ;
     }
 };
-int main(){
+int main() {
     Account account1 ;
+    Account account2("U Ba","00123",20000) ;
     account1.showData() ;
-    account1.createAccount("Yan Myoe Aung","12345") ;
-    account1.showData() ;
-    account1.deposit(20000) ;
-    cout<< " _____After Deposit_____" << endl ;
-    cout<< " Balance is : " << account1.accountBalance << endl ;
-    bool result = account1.withdraw(5000) ;
-    if(result){
-        account1.showData() ;
-    }else{
-        cout<< "Error to withdraw ! " << endl ;
-    }
-    return 0 ;
+    account2.showData() ;
+    return 0;
 }
