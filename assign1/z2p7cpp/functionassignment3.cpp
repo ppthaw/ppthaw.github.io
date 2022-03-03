@@ -35,22 +35,17 @@ void searchitembyCode(){
 string barcode ; 
 cout<< " Enter Barcode which you want to find : " ;
 cin>>barcode ;        
-        if(barcode == itemList[0][0]){
-        cout<< " Barcode : " << itemList[0][0] << " \tItemName : " << itemList[0][1] << " \tPrice : " << itemList[0][2] << endl ;
-    }if(barcode == itemList[1][0]){
-        cout<< " Barcode : " << itemList[1][0] << " \tItemName : " << itemList[1][1] << " \tPrice : " << itemList[1][2] << endl ;
-    }if(barcode == itemList[2][0]){
-        cout<< " Barcode : " << itemList[2][0] << " \tItemName : " << itemList[2][1] << " \tPrice : " << itemList[2][2] << endl ;
-    }if(barcode == itemList[3][0]){
-        cout<< " Barcode : " << itemList[3][0] << " \tItemName : " << itemList[3][1] << " \tPrice : " << itemList[3][2] << endl ;
-    }if(barcode == itemList[4][0]){
-        cout<< " Barcode : " << itemList[4][0] << " \tItemName : " << itemList[4][1] << " \tPrice : " << itemList[4][2] << endl ;
-    }
-        cout<< endl ;
+        for(int i=0;i<count;i++){
+            if(barcode==itemList[i][0]){
+                cout<< " \nBarcode\tName\tPrice " << endl ;
+                cout<< itemList[i][0] << "\t" << itemList[i][1] << "\t" << itemList[i][2] ;
+        }
+                cout<< endl ;             
+    }         
 }
 int main(){
     initializeData() ;
-    displayitemData() ;
+    displayitemData() ;    
     searchitembyCode() ;
 }   
 
