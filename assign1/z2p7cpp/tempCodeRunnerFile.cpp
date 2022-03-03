@@ -1,2 +1,2 @@
-cout<< " Enter number of students : " ;
-    cin>>count;
+
+   // product1.Name= "Cake" ;
