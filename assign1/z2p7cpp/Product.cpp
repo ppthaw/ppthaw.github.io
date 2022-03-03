@@ -73,9 +73,8 @@ int main() {
         cout<< " \nProducts Information " << endl ;
         cout<< " No\tName\tPrice\tBarcode\n " ;
         for(int i=0;i<3;i++){
-            cout<< i+1 << products[i].getName() << "\t" << products[i].getPrice() << "\t" << products[i].getBarcode() << endl ;
+            cout<< i+1 << "\t" << products[i].getName() << "\t" << products[i].getPrice() << "\t" << products[i].getBarcode() << endl ;
         }
-
     // int price[3] ;
     return 0 ;
 }
