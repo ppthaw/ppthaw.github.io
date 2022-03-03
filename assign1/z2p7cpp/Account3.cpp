@@ -7,8 +7,8 @@ public:
     string accountNumber ;
     int accountBalance ;
     void createAccount(string accHolder,string accNumber){
-    this->accountHolder = accountHolder ;
-    this->accountNumber = accountNumber ;
+    this->accountHolder = accHolder ;
+    this->accountNumber = accNumber ;
         accountBalance = 1000 ;
     }
     void deposit(int depositAmount){
