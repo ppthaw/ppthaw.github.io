@@ -25,6 +25,7 @@ public:
         getline(cin,company) ;
         cout<< " Salary : " ;
         cin>>salary ;
+        cin.ignore() ;
     }
     void display(){
         Person::display() ;
@@ -34,11 +35,23 @@ public:
 };
 class Programmer:public Employee
 {
-
+private:
+    string skillSet ;
+public:
+    void getData(){
+        Employee::getData() ;
+        cout<< " Enter Skill Sets : " ;
+        getline(cin,skillSet) ;
+    }
+    void display(){
+        Employee::display() ;
+        cout<< " SkillSets : " << skillSet << endl ;
+          }
 };
 int main() {
     Programmer programmer1 ;
     programmer1.getData() ;
+    cout<< " \n_____Programmer Information_____\n " ;
     programmer1.display() ;
     return 0;
 }
