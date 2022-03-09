@@ -53,8 +53,9 @@ int main(){
     student2.showData() ;
     student2.attend() ;
     Programmer programmer1 ;
-    programmer1.intData("John","3D-12345") ;
-    programmer1.
-    programmer1.
-    programmer1.
+    programmer1.initData("John","3D-12345") ;
+    programmer1.showData() ;
+    programmer1.setSkillSet("C++") ;
+    programmer1.viewSkillSet() ;
+    return 0 ;
 }
