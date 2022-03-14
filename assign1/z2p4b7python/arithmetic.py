@@ -1,6 +1,7 @@
 # + , - , * , / , % , // , **
-num1=25
-num2=4
+print('Enter 2 number for arithmetic operations!')
+num1=int(input('Enter First Number:'))
+num2=int(input('Enter Second Number'))
 sum=num1+num2
 sub=num1-num2
 mul=num1*num2
