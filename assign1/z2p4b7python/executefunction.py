@@ -2,7 +2,6 @@
 # ask user a function and run with x value
 from signal import default_int_handler
 
-
 formula=input('Enter a function including x: ')
 code="""def f(X):
     return %s
