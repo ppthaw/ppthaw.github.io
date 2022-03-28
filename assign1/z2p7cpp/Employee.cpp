@@ -15,7 +15,6 @@ public:
     int getSalary(){
         return this->salary ;
     }
-
     void displayInfo(){
         cout<< " \nNmae : " << name << " \tSalary :" << salary << endl ;
     }
@@ -55,6 +54,5 @@ int main() {
      for(int i=0;i<4;i++){
          emp[i].displayInfo() ;
      }
-
     return 0;
 }
