@@ -24,10 +24,13 @@ class Person:
         if self.email is not None:
             s += 'Email:'+ self.email    
         print(s)
+    def __str__(self):
+        return self.name +' \nPhone: ' + self.mobile
 
 p1=Person('Mg Mg','0923445556')
-#p1.add_mobile_phone('094435353')
+p1.add_mobile_phone('094435353')
 #p1.add_private_phone('09433445343')
 p1.add_email('yanmyoeaung@gmail.com')
 print(p1.__dict__)
 p1.dump()
+print(p1)
